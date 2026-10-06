@@ -9,7 +9,7 @@ def load(path):
 
 
 def drop_missing(df):
-    return df.dropna()
+    return df.dropna().reset_index(drop=True)
 
 
 def remove_outliers(df, column):
