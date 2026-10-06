@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credentials, never commit these
+.env
+*.pem
+credentials.json
+service-account*.json
+
+# Data and model artifacts
+data/raw/
+data/interim/
+data/
+*.parquet
+*.h5
+*.pkl
+
+# Operating system and editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
