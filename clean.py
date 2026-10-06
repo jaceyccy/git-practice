@@ -1,7 +1,7 @@
 # Data cleaning script
 import pandas as pd
 
-THRESHOLD = 3.0
+THRESHOLD = 4.0
 
 
 def load(path):
